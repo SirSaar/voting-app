@@ -2,7 +2,7 @@ const passport = require('passport');
 const express = require('express');
 const { loggedIn } = require('./loggedIn');
 const router = express.Router();
-import createHttpError from 'http-errors';
+const createHttpError = require('http-errors');
 const User = require('../models/User')
 const asyncHandler = require('express-async-handler')
 

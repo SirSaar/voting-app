@@ -63,3 +63,5 @@ app.use((err, req, res, next) => {
 app.listen(80, function () {
     debug('CORS-enabled web server listening on port 80')
 })
+
+module.exports = app;
